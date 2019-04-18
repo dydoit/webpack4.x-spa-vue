@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     path: resolve('dist'),
-    filename: '[name].[contenthash].js'
+    filename: process.env.NODE_ENV==='production'?'[name].[contenthash].js':'[name].js'
   },
   module: {
     rules:[

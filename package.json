@@ -1,11 +1,12 @@
 {
   "name": "webpack4.x-spa",
+  "sideEffects":["*.css"],
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config ./build/webpack.prod.js"
+    "build": "webpack  --config ./build/webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
