@@ -3,7 +3,6 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 module.exports = {
-  mode: 'development',
   entry: {
     app: path.resolve(__dirname, '../src/main.js')
   },
